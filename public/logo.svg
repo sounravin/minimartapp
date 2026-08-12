@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background Circle & Border -->
+  <circle cx="250" cy="250" r="235" fill="#ffffff" stroke="#007d9c" stroke-width="22"/>
+  <circle cx="250" cy="250" r="215" fill="#ffffff" stroke="#007d9c" stroke-width="4" stroke-dasharray="8 6" opacity="0.3"/>
+
+  <!-- Growth Arrows -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 125 L272 95 M272 95 L252 95 M272 95 L272 115" stroke="#34d399" stroke-width="12"/>
+    <path d="M280 115 L302 80 M302 80 L282 80 M302 80 L302 100" stroke="#10b981" stroke-width="12"/>
+    <path d="M308 105 L332 68 M332 68 L310 68 M332 68 L332 90" stroke="#f59e0b" stroke-width="12"/>
+  </g>
+
+  <!-- Tap Signal Waves at Base -->
+  <ellipse cx="250" cy="265" rx="100" ry="22" fill="none" stroke="#007d9c" stroke-width="8"/>
+  <ellipse cx="250" cy="280" rx="75" ry="16" fill="none" stroke="#007d9c" stroke-width="6"/>
+
+  <!-- POS Register Machine Body -->
+  <path d="M205 135 L315 135 C328 135 335 142 330 155 L290 245 C285 255 275 260 260 260 L180 260 C165 260 160 250 165 238 L200 145 C202 138 203 135 205 135 Z" fill="#025a75"/>
+  <!-- Screen Display -->
+  <path d="M212 145 L308 145 C315 145 318 148 315 155 L288 215 C285 220 280 222 272 222 L198 222 C190 222 188 218 190 210 L208 152 C210 147 210 145 212 145 Z" fill="#e0f2fe"/>
+  <!-- Screen Reflection Gloss -->
+  <path d="M245 150 L280 150 L248 215 L230 215 Z" fill="#ffffff" opacity="0.6"/>
+  <path d="M285 150 L302 150 L275 210 L260 210 Z" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Keypad & Slot -->
+  <path d="M205 230 L270 230 C274 230 276 232 275 236 L273 242 C272 245 270 246 266 246 L201 246 C197 246 195 244 196 240 L198 234 C199 231 202 230 205 230 Z" fill="#ffffff"/>
+  <rect x="210" y="235" width="12" height="6" rx="2" fill="#025a75"/>
+  <rect x="228" y="235" width="12" height="6" rx="2" fill="#025a75"/>
+  <rect x="246" y="235" width="12" height="6" rx="2" fill="#025a75"/>
+
+  <!-- POS Stand Backing -->
+  <path d="M305 155 L335 198 C342 208 338 220 325 220 L285 220 Z" fill="#007d9c"/>
+
+  <!-- Orange Shopping Cart on Top/Side -->
+  <g transform="translate(-10, -10)">
+    <!-- Cart Body -->
+    <path d="M140 150 L148 150 L175 205 C178 212 185 216 194 216 L235 216 C243 216 248 210 245 202 L240 162 C238 156 232 152 225 152 L160 152" fill="#f59e0b"/>
+    <!-- Cart Handle -->
+    <path d="M132 152 L146 152 L150 162" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+    <!-- Cart Wheels -->
+    <circle cx="185" cy="228" r="9" fill="#f59e0b"/>
+    <circle cx="185" cy="228" r="4" fill="#ffffff"/>
+    <circle cx="225" cy="228" r="9" fill="#f59e0b"/>
+    <circle cx="225" cy="228" r="4" fill="#ffffff"/>
+  </g>
+
+  <!-- Typography MINI MART POS -->
+  <text x="250" y="350" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Kantumruy Pro', sans-serif" font-weight="900" font-size="52" fill="#005b7f" letter-spacing="1">MINI MART</text>
+  <text x="250" y="410" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Kantumruy Pro', sans-serif" font-weight="900" font-size="62" fill="#005b7f" letter-spacing="3">POS</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "name": "ប្រព័ន្ធ MINI-POS",
+  "description": "Smart Mart POS with Member Welcome Auth, Admin Console, multi-tenant store data isolation, barcode scanning, auto receipt printing, and Telegram Bot notifications.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

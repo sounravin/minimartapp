@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    letter-spacing: 0em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Khmer typography optimization */
+  h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.5;
+  }
+
+  /* Utility font classes for Khmer headlines & badges */
+  .font-moul {
+    font-family: 'Moul', 'Kantumruy Pro', cursive, sans-serif;
+    line-height: 1.8;
+  }
+
+  .font-khmer {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', sans-serif;
+  }
+
+  /* Disable double-tap zoom delay on mobile controls */
+  button, input, select, a {
+    touch-action: manipulation;
+  }
+
+  /* Custom smooth scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #e2e8f0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f59e0b;
+  }
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Mobile App Safe Area Padding */
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 4.5rem);
+}
+
+

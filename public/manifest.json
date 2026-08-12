@@ -1,0 +1,22 @@
+{
+  "short_name": "MINI POS",
+  "name": "ប្រព័ន្ធ-MINI POS",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "any",
+  "description": "ប្រព័ន្ធ-MINI POS - Smart POS & Inventory Management System"
+}
